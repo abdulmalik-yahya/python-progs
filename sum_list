@@ -1,0 +1,7 @@
+def sum(list):
+    total = 0
+    for num in list:
+        total += num
+    return total
+    
+print(sum([8,2,3,0,7]))
